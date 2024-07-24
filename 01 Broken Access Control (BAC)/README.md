@@ -1,7 +1,9 @@
 2021 Broken Acess Control -- 2013 Insecure Direct Object References
                           +- 2013 Missing Function Level Access Control
 
-## Description (cf. https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
+## Description
+
+Source: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 
 Access control enforces policy such that users cannot act outside of their intended permissions.
 Failures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.
@@ -33,37 +35,37 @@ Access control is only effective in trusted server-side code or server-less API,
 
 ## List of Mapped CWEs
 
-CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
-CWE-23 Relative Path Traversal
-CWE-35 Path Traversal: '.../...//'
-CWE-59 Improper Link Resolution Before File Access ('Link Following')
-CWE-200 Exposure of Sensitive Information to an Unauthorized Actor
-CWE-201 Exposure of Sensitive Information Through Sent Data
-CWE-219 Storage of File with Sensitive Data Under Web Root
-CWE-264 Permissions, Privileges, and Access Controls (should no longer be used)
-CWE-275 Permission Issues
-CWE-276 Incorrect Default Permissions
-CWE-284 Improper Access Control
-CWE-285 Improper Authorization
-CWE-352 Cross-Site Request Forgery (CSRF)
-CWE-359 Exposure of Private Personal Information to an Unauthorized Actor
-CWE-377 Insecure Temporary File
-CWE-402 Transmission of Private Resources into a New Sphere ('Resource Leak')
-CWE-425 Direct Request ('Forced Browsing')
-CWE-441 Unintended Proxy or Intermediary ('Confused Deputy')
-CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere
-CWE-538 Insertion of Sensitive Information into Externally-Accessible File or Directory
-CWE-540 Inclusion of Sensitive Information in Source Code
-CWE-548 Exposure of Information Through Directory Listing
-CWE-552 Files or Directories Accessible to External Parties
-CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key
-CWE-601 URL Redirection to Untrusted Site ('Open Redirect')
-CWE-639 Authorization Bypass Through User-Controlled Key
-CWE-651 Exposure of WSDL File Containing Sensitive Information
-CWE-668 Exposure of Resource to Wrong Sphere
-CWE-706 Use of Incorrectly-Resolved Name or Reference
-CWE-862 Missing Authorization
-CWE-863 Incorrect Authorization
-CWE-913 Improper Control of Dynamically-Managed Code Resources
-CWE-922 Insecure Storage of Sensitive Information
-CWE-1275 Sensitive Cookie with Improper SameSite Attribute
+- CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+- CWE-23 Relative Path Traversal
+- CWE-35 Path Traversal: '.../...//'
+- CWE-59 Improper Link Resolution Before File Access ('Link Following')
+- CWE-200 Exposure of Sensitive Information to an Unauthorized Actor
+- CWE-201 Exposure of Sensitive Information Through Sent Data
+- CWE-219 Storage of File with Sensitive Data Under Web Root
+- CWE-264 Permissions, Privileges, and Access Controls (should no longer be used)
+- CWE-275 Permission Issues
+- CWE-276 Incorrect Default Permissions
+- CWE-284 Improper Access Control
+- CWE-285 Improper Authorization
+- CWE-352 Cross-Site Request Forgery (CSRF)
+- CWE-359 Exposure of Private Personal Information to an Unauthorized Actor
+- CWE-377 Insecure Temporary File
+- CWE-402 Transmission of Private Resources into a New Sphere ('Resource Leak')
+- CWE-425 Direct Request ('Forced Browsing')
+- CWE-441 Unintended Proxy or Intermediary ('Confused Deputy')
+- CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere
+- CWE-538 Insertion of Sensitive Information into Externally-Accessible File or Directory
+- CWE-540 Inclusion of Sensitive Information in Source Code
+- CWE-548 Exposure of Information Through Directory Listing
+- CWE-552 Files or Directories Accessible to External Parties
+- CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key
+- CWE-601 URL Redirection to Untrusted Site ('Open Redirect')
+- CWE-639 Authorization Bypass Through User-Controlled Key
+- CWE-651 Exposure of WSDL File Containing Sensitive Information
+- CWE-668 Exposure of Resource to Wrong Sphere
+- CWE-706 Use of Incorrectly-Resolved Name or Reference
+- CWE-862 Missing Authorization
+- CWE-863 Incorrect Authorization
+- CWE-913 Improper Control of Dynamically-Managed Code Resources
+- CWE-922 Insecure Storage of Sensitive Information
+- CWE-1275 Sensitive Cookie with Improper SameSite Attribute
