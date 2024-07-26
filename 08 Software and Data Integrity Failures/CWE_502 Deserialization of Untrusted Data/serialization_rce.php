@@ -9,7 +9,17 @@ class Command {
         echo "[+] Construct function called successfully" . PHP_EOL;
     }
 
+    public function __sleep() {
+        if(isset($this->inject))
+            eval($this->inject);
+    }
+
     public function __wakeup() {
+        if(isset($this->inject))
+            eval($this->inject);
+    }
+
+    public function __destruct() {
         if(isset($this->inject))
             eval($this->inject);
     }
