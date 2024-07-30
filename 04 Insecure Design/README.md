@@ -35,12 +35,12 @@ to defend against specific attacks.
 - CWE-316 Cleartext Storage of Sensitive Information in Memory
 - CWE-419 Unprotected Primary Channel
 - CWE-430 Deployment of Wrong Handler
-- CWE-434 Unrestricted Upload of File with Dangerous Type
+- ✓ CWE-434 Unrestricted Upload of File with Dangerous Type
 - CWE-444 Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling')
 - CWE-451 User Interface (UI) Misrepresentation of Critical Information
 - CWE-472 External Control of Assumed-Immutable Web Parameter
 - CWE-501 Trust Boundary Violation
-- CWE-522 Insufficiently Protected Credentials
+- ✓ CWE-522 Insufficiently Protected Credentials
 - CWE-525 Use of Web Browser Cache Containing Sensitive Information
 - CWE-539 Use of Persistent Cookies Containing Sensitive Information
 - CWE-579 J2EE Bad Practices: Non-serializable Object Stored in Session

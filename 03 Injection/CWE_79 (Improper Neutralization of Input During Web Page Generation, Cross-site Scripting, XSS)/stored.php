@@ -12,7 +12,7 @@
 			// Get the user's comment from the form
 			$comment = $_POST['comment'];
 
-			// fix: Sanitize the comment to prevent XSS attacks
+			// Fix: Sanitize the comment to prevent XSS attacks
 			// $comment = htmlspecialchars($comment);
 
 			// Insert the comment into the database
